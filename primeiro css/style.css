@@ -1,0 +1,20 @@
+h1{
+    font-size: 90px;
+    border-color: rgb(10, 10, 9);
+    border-width: 2px;
+    border-style: dashed;
+
+    border: 2px dashed rgb(206, 240, 12);
+}
+
+h4{
+    color: wheat;
+    font-size: 40px
+    
+}
+
+body{
+    background-image: url(https://i.pinimg.com/736x/60/b3/69/60b369cda27e12d9a574fc194d8dd36f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

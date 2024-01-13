@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Tabelas no HTML</title>
+    </head>
+
+    <body>
+        <h1>Criação de tabelas no HTML</h1>
+
+        <table>
+            <tr>
+                <th>Coluna 1 </th>
+                <th>coluna 2 </th>
+            </tr>
+            <tr>
+                <td>Dado1</td>
+                <td>dado 2</td>
+            </tr>
+            <tr>
+                <td>Dado3</td>
+                <td>dado4</td>
+            </tr>
+        </table>
+        
+        <hr>
+
+        <h2>Tabelas com Cabeçalho</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>nome</th>
+                    <th>idade</th>
+                    <th>profissão</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>João</td>
+                    <td>30</td>
+                    <td>Engenheiro</td>
+                </tr>
+                <tr>
+                    <td>Maria</td>
+                    <td>25</td>
+                    <td>Advogada</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h2>tabelas com celulas personalizadas</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">Informações pessoais</th>
+                    <th>Contato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Nome:</td>
+                    <td>João</td>
+                    <td rowspan="3">Telefone:12345</td>
+                </tr>
+                <tr>
+                    <td>idade:</td>
+                    <td>30</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Exercicio 5</title>
+    </head>
+    <body>
+        <h1>Formulário de Inscrição...</h1>
+        <form>
+            <label for="">Nome:</label><br>
+            <input type="text" id="nome" nome="nome" required>
+            <br><br>
+
+            <label for="email">Egmail:</label><br>
+            <input type="email" id="email" nome="email" required>
+            <br><br>
+
+            <label for="telefone">Whatsapp:</label><br>
+            <input type="tel" id="telefone" nome="telefone">
+            <br><br><br>
+
+            <label>Área de atuação2:</label><br>
+            <input type="checkbox" id="desenvolvimento" value="desenvolvimento" nome="Área de atuação2">
+            <label for="desenvolvimento">Desenvolvimento</label>
+            <input type="checkbox" id="Análise de Dados" value="Análise de Dados" nome="Área de atuação2">
+            <label for="Análise de Dados">Análise de Dados</label>
+            <input type="checkbox" id="Infraestrutura" value="Infraestrutura" nome="Área de atuação2">
+            <label for="Infraestrutura">Infraestrutura</label>
+
+            <br><br><br>
+            <label for="atuacao">Área de atuação:</label>
+            <select nome="situacao" id="situacao">
+                <option value="" selected disabled>Selecione uma das opções: </option>
+                <option value="desenvolvimento">desenvolvimento</option>
+                <option value="quality">Quality Assurance (QA)</option>
+                <option value="analise">Analise de dados</option>
+                <option value="infraestrutura">infraestrutura</option>
+            </select>
+            <br><br>
+
+            <label for="observacoes">Observações:</label><br>
+            <textarea name="observacoes" id="observacoes" cols="40" rows="6" placeholder="Diga algumas Observações..."></textarea>
+            <br><br>
+
+            <input type="checkbox" id="ofertas" value="ofertas" nome="ofertas">
+            <label for="ofertas">Desejo receber novidades e ofertas por email.</label>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
