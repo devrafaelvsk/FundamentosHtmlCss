@@ -78,3 +78,130 @@ a:hover {
 .text-spacing {
     line-height: 1.8; /* espaçamento maior */
 }
+/* Fonte personalizada do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.body {
+    font-family: 'Roboto', sans-serif; /* Aplica a fonte Roboto */
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Títulos e subtítulos */
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* Estilizando texto destacado */
+.destaque {
+    color: #ff6600; /* cor laranja */
+    font-style: italic;
+}
+
+/* Espaçamento entre parágrafos */
+.paragrafo {
+    margin-bottom: 15px;
+}
+/* Overlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* fundo preto transparente */
+    z-index: 999; /* camada superior */
+    display: none; /* oculto por padrão */
+}
+
+/* Estilo de modal */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000; /* camada acima do overlay */
+    display: none; /* oculto por padrão */
+}
+
+/* Estilo de botão fechar no modal */
+.modal-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #666;
+    font-size: 24px;
+}
+
+.modal-close:hover {
+    color: #333;
+}
+/* Estilo de lista com ícones */
+.lista-icones {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-icones li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.lista-icones li:before {
+    content: '\2022'; /* código Unicode para o bullet */
+    color: #007bff; /* cor do bullet */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    position: absolute;
+    left: 0;
+}
+
+/* Estilo de ícone */
+.icone {
+    font-size: 24px;
+    color: #555;
+    margin-right: 10px;
+}
+/* Estilo básico de tabela */
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela th, .tabela td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabela th {
+    background-color: #f0f0f0;
+}
+
+.tabela tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
