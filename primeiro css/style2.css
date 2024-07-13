@@ -16,3 +16,65 @@ li{
     font-size: 80px;
     color: blue;
 }
+/* Cor de fundo e cor do texto */
+body {
+    background-color: #f0f0f0; /* cor de fundo cinza claro */
+    color: #333; /* cor do texto preto */
+}
+
+/* Cor de fundo e cor do texto para um elemento específico */
+.header {
+    background-color: #4285f4; /* azul do Google */
+    color: #fff; /* texto branco */
+}
+
+/* Cor de texto de um link */
+a {
+    color: #007bff; /* azul claro */
+}
+
+/* Cor de fundo e cor do texto ao passar o mouse sobre um link */
+a:hover {
+    background-color: #007bff; /* azul claro */
+    color: #fff; /* texto branco */
+}
+/* Estilo de imagem com borda */
+.img-bordered {
+    border: 1px solid #ccc; /* borda cinza */
+    border-radius: 5px; /* bordas arredondadas */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* sombra suave */
+}
+
+/* Redimensionamento de imagem */
+.img-resize {
+    width: 100px; /* largura fixa */
+    height: auto; /* altura ajustada automaticamente */
+}
+
+/* Imagem como fundo de um elemento */
+.background-img {
+    background-image: url('caminho/para/sua/imagem.jpg');
+    background-size: cover;
+    background-position: center;
+}
+/* Estilo de texto */
+.texto-grande {
+    font-size: 24px; /* tamanho grande */
+    font-weight: bold; /* negrito */
+    line-height: 1.5; /* altura da linha */
+}
+
+/* Texto alinhado ao centro */
+.text-center {
+    text-align: center;
+}
+
+/* Texto em itálico */
+.text-italic {
+    font-style: italic;
+}
+
+/* Espaçamento entre linhas */
+.text-spacing {
+    line-height: 1.8; /* espaçamento maior */
+}
