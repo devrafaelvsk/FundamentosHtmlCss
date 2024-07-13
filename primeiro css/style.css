@@ -18,3 +18,181 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* Cores RGBA */
+.elemento {
+    background-color: rgba(255, 0, 0, 0.5); /* vermelho com transparência */
+}
+
+/* Gradiente linear */
+.gradiente {
+    background: linear-gradient(to right, #ff8a00, #e52e71); /* gradiente laranja para rosa */
+}
+
+/* Sombra */
+.elemento-com-sombra {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* sombra suave */
+}
+
+/* Texto com sombra */
+.texto-com-sombra {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* sombra no texto */
+}
+/* Imagem com borda arredondada */
+.img-rounded {
+    border-radius: 50%; /* borda arredondada */
+}
+
+/* Imagem como fundo com posicionamento específico */
+.img-background {
+    background-image: url('caminho/para/sua/imagem.jpg');
+    background-size: contain; /* ajusta a imagem para caber */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* Estilo de fonte personalizado */
+.texto-personalizado {
+    font-family: 'Arial', sans-serif; /* fonte Arial com fonte de fallback */
+}
+
+/* Sublinhado personalizado */
+.texto-sublinhado {
+    text-decoration: underline dotted #333; /* sublinhado pontilhado com cor escura */
+}
+
+/* Texto em maiúsculas */
+.texto-maiusculo {
+    text-transform: uppercase; /* transforma o texto em maiúsculas */
+}
+
+/* Texto com espaçamento entre letras */
+.texto-espacamento-letras {
+    letter-spacing: 2px; /* espaçamento entre letras */
+}
+/* Estilo de caixa */
+.caixa {
+    border: 1px solid #ccc; /* borda cinza */
+    padding: 10px; /* preenchimento interno */
+    margin-bottom: 20px; /* margem inferior */
+}
+
+/* Estilo de botão */
+.botao {
+    display: inline-block;
+    background-color: #007bff; /* azul claro */
+    color: #fff; /* texto branco */
+    padding: 10px 20px; /* preenchimento */
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Estilo de lista */
+.lista {
+    list-style-type: disc; /* marcadores de lista com círculos */
+    margin-left: 20px; /* recuo à esquerda */
+}
+/* Cor de fundo gradiente */
+.elemento {
+    background: linear-gradient(45deg, #ff6347, #ffd700); /* gradiente diagonal laranja para amarelo */
+}
+
+/* Cor de texto e borda */
+.texto-destacado {
+    color: #4caf50; /* verde */
+    border: 1px solid #4caf50; /* borda verde */
+}
+
+/* Cor de fundo com padrão */
+.fundo-padrao {
+    background-image: url('caminho/para/seu/padrao.png');
+    background-repeat: repeat;
+}
+
+/* Cor de fundo com efeito de padrão */
+.fundo-padrao-efeito {
+    background-image: url('caminho/para/seu/padrao.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+/* Imagem com filtro de saturação */
+.img-saturada {
+    filter: saturate(150%); /* aumenta a saturação da imagem */
+}
+
+/* Imagem com efeito de escala de cinza */
+.img-escala-de-cinza {
+    filter: grayscale(100%); /* transforma a imagem em escala de cinza */
+}
+
+/* Imagem com efeito de desfoque */
+.img-desfocada {
+    filter: blur(5px); /* aplica um desfoque à imagem */
+}
+
+/* Imagem com efeito de brilho */
+.img-brilho {
+    filter: brightness(150%); /* aumenta o brilho da imagem */
+}
+/* Texto com sombra colorida */
+.texto-sombra-colorida {
+    text-shadow: 1px 1px 2px #333, -1px -1px 2px #fff; /* sombra dupla */
+}
+
+/* Texto com contorno */
+.texto-contorno {
+    color: #fff; /* texto branco */
+    -webkit-text-stroke: 1px #333; /* contorno de 1px preto */
+}
+
+/* Texto com efeito de gradiente */
+.texto-gradiente {
+    background: linear-gradient(45deg, #ff6347, #ffd700); /* fundo gradiente laranja para amarelo */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* aplica gradiente ao texto */
+}
+
+/* Texto com efeito de sombra interna */
+.texto-sombra-interna {
+    text-shadow: inset 2px 2px 3px rgba(0,0,0,0.5); /* sombra interna */
+}
+/* Estilo de barra de navegação */
+.navbar {
+    background-color: #333; /* fundo escuro */
+    padding: 10px;
+}
+
+/* Estilo de caixa de alerta */
+.alerta {
+    background-color: #f8d7da; /* vermelho suave */
+    border-color: #f5c6cb; /* borda vermelha */
+    color: #721c24; /* texto vermelho escuro */
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* Estilo de tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #ccc; /* linha pontilhada */
+    text-decoration: none; /* remove sublinhado */
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    background-color: #333; /* fundo escuro */
+    color: #fff; /* texto branco */
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
